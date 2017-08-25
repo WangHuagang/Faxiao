@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-top: 2px;
+    background: url("../img/bg-right.jpg") no-repeat;
+    background-size: 790px 550px;
+    width: 780px;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+#bg{
+    width: 790px;
+    height: 550px;
+    background: url("../img/right.jpg") no-repeat;
+    position: relative;
+}
+#bg-h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 70px;
+    color: white;
+    font-size: 26px;
+    text-shadow: 5px 5px 40px black;
+
+}
+
+.add{
+    width:110px;
+    height: 40px;
+    color: black;
+    padding-left: 10px;
+    border: 1px solid #cccccc;
+    margin-bottom: -1px;
+    position: relative;
+    z-index: 100;
+    border-bottom: none;
+    border-radius: 2px;
+    line-height: 40px;
+    box-shadow: 2px 2px 5px #ccc;
+    font-size: 20px;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+.detailed{
+    width: 780px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px black;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+.barber-photo{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 20px;
+    float: left;
+}
+.data{
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 40px;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+
+}
+#file{
+    display: none;
+}
+.barber-photo label:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    display: block;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.save{
+    margin-left: 50px;
+}
+.save-btn{
+    background-color: #0091ea;
+}
+.save-btn:hover{
+    background-color: #003eff;
+    cursor: pointer;
+}
+.canle-btn{
+    background-color: #cccccc;
+}
+.add-acticity{
+    margin: 60px;
+}
+.picbox{
+    width: 600px;
+    height: 100px;
+    border: solid 1px black;
+}
+.add-pic{
+    width: 80px;
+    height: 80px;
+    border: dotted 1px #cccccc;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.add-pic p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #cccccc;
+}
+.add-pic p:first-child{
+    font-size: 36px;
+}
+.add-pic:hover p{
+    color: black;
+}
+
+.textarea{
+    color: #cccccc;
+}
+.continue{
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #0091ea;
+    float: right;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.continue:hover{
+    background-color: #0091ea;
+}
+#tab tr td:first-child{
+    width: 300px;
+
+}
+#tab tr td:last-child{
+    width: 100px;
+    text-align: center;
+}
+#tab tr td a{
+    text-decoration: underline;
+    color: #0091ea;
+}
+.creat{
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #0091ea;
+    position: relative;
+    left: 303px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.creat:hover{
+    background-color: #0091ea;
+}
+.order{
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #0091ea;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.order:hover{
+    background-color: #0091ea;
+}
+.order-search{
+    clear: both;
+   padding-top: 20px;
+}
+.order-search input{
+    width: 50px;
+}
+#order-tab{
+    margin-top: 20px;
+}
+#order-tab tr td{
+    width: 120px;
+    text-align: center;
+}
+#order-tab tr td a{
+    text-decoration: underline;
+    color: #0091ea;
+}
+.remind{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#jur-tab tr td{
+    width: 200px;
+}
+#jur-tab tr td a{
+    text-decoration: underline;
+    color: #0091ea;
+}
+.staff-li{
+    width: 400px;
+    height: 60px;
+    margin-left: 320px;
+}
+.staff-li a{
+    display: block;
+    width: 140px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.staff-li a:first-child{
+    background: url("../img/F5.png") no-repeat 5px center;
+}
+.staff-li a:last-child{
+    background: url("../img/staff.png") no-repeat 15px center;
+}
+.staff-li a:hover{
+    color: #0091ea;
+}
+.staff-log input{
+    width: 100px;
+}
+.staff-log{
+    margin-top: 20px;
+}
+#log-tab tr td{
+    width: 180px;
+}
+#log-tab{
+    margin-top: 20px;
+}

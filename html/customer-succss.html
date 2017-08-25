@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv=refresh content="10;url=shop-login.html">
+    <title>店铺注册——发晓</title>
+    <script src="../js/jquery.min.js"></script>
+    <script charset="gbk" type="text/javascript"  src="../js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/shop-register-1.css"/>
+    <script charset="gbk" type="text/javascript" src="../js/shop-register-1.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="head">
+    <h2>发晓商家中心</h2>
+    <span>注册店铺的过程中，有任何问题请<a href="self.html">联系我们</a></span>
+</div>
+<div class="success">
+    <h2>恭喜您，注册成功！</h2>
+    <p>网页<span id="count"></span>秒后将跳转到登录界面,若没有自动跳转，请点击<a href="shop-login.html">登录页面</a></p>
+    <p></p>
+</div>
+<script>
+    var num=10;
+    function count(){
+
+        num--;
+        document.getElementById("count").innerHTML=num;
+        if(num<=0){
+            document.location.href="shop-login.html";
+        }
+    }
+    setInterval("count()",1000);
+</script>
+
+</body>
+</html>

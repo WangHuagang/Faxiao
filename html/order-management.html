@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>订单管理</title>
+    <link rel="stylesheet" href="../css/All-system.css"/>
+</head>
+<body>
+    <div class="add">订单管理</div>
+    <div class="detailed">
+        <a href="#" class="order">删除订单</a>
+        <a href="#" class="order">打印订单</a>
+        <div class="order-search">
+            <label>会员账号</label>
+            <input type="text">
+            <label>编号搜索</label>
+            <input type="text">
+            <label>订单状态</label>
+            <select>
+                <option>已付款</option>
+                <option>未付款</option>
+                <option>预约中</option>
+            </select>
+            <label>时间</label>
+            <input type="datetime-local" class="local-time">
+            <span>-</span>
+            <input type="datetime-local" class="local-time">
+            <button>查询</button> 
+            <table id="order-tab" border="1px solid #ccc" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>订单编号</td>
+                    <td>结算时间</td>
+                    <td>会员账号</td>
+                    <td>会员姓名</td>
+                    <td>订单金额</td>
+                    <td>订单状态</td>
+                    <td>操作</td>
+                </tr>
+                <tr>
+                    <td>20160721101</td>
+                    <td>2016-12-10 20:32:48</td>
+                    <td>123</td>
+                    <td>王以</td>
+                    <td>80.00</td>
+                    <td>已发货</td>
+                    <td><a href="#">查看</a>&nbsp;<a href="#">修改</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+$(function(){
+    $("#add").click(function(){
+        $(".ul-li-1").slideToggle(500);
+    });
+    $("#modify").click(function(){
+        $(".ul-li-2").slideToggle(500);
+    });
+    $("#photo").click(function(){
+        $(".ul-li-3").slideToggle(500);
+    });
+    $("#shop").click(function(){
+        $(".ul-li-4").slideToggle(500);
+    });
+    $("#msg").click(function(){
+        $(".ul-li-5").slideToggle(500);
+    });
+    $("#source").click(function(){
+        $(".ul-li-6").slideToggle(500);
+    });
+    $("#system").click(function(){
+        $(".ul-li-7").slideToggle(500);
+    });
+});

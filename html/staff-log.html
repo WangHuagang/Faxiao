@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>员工操作日志</title>
+    <link rel="stylesheet" href="../css/All-system.css"/>
+</head>
+<body>
+    <div class="add">订单提醒</div>
+    <div class="detailed">
+        <div class="staff-log">
+            <label>员工账号</label>
+            <input type="text">
+            <label>操作搜索</label>
+            <input type="text">
+            <label>时间</label>
+            <input type="datetime-local" class="local-time">
+            <span>-</span>
+            <input type="datetime-local" class="local-time">
+            <button>查询</button>
+            <table id="log-tab" border="1px solid #ccc" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>员工账号</td>
+                    <td>操作</td>
+                    <td>操作详情</td>
+                    <td>操作时间</td>
+                </tr>
+                <tr>
+                    <td>boss</td>
+                    <td>登录店铺</td>
+                    <td>上传图片到相册</td>
+                    <td>2016-12-09 12:35:24</td>
+                </tr>
+                <tr>
+                    <td>boss</td>
+                    <td>登录店铺</td>
+                    <td>修改店铺价格</td>
+                    <td>2016-12-10 10:32:24</td>
+                </tr>
+                <tr>
+                    <td>001理发师</td>
+                    <td>登录员工账号</td>
+                    <td>评价订单</td>
+                    <td>2016-12-13 10:33:31</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

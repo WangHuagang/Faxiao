@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset='utf-8'" />
+    <title>店铺——发晓</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css">
+    <script charset="gb2312" src="../js/shop.js"></script>
+    <link rel="stylesheet" href="../css/shop.css"/>
+</head>
+<body>
+    <div class="head">
+        <div class="logo"></div>
+        <div class="nav">
+            <ul class="nav">
+                <li><a href="../index.html" target="_blank" class="class-a index">发晓首页</a></li>
+                <li><a href="#h2"  class="class-a">金牌理发师</a></li>
+                <li><a href="#cuthair"  class="class-a">金牌发型</a></li>
+                <li><a href="#youhui"  class="class-a">店铺优惠</a></li>
+                <li><a href="shop-login.html" target="_blank" class="class-a">后台管理</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="padding"></div>
+    <div class="banner"></div>
+    <div id="order">
+        <div class="circle">点击预约</div>
+        <div class="order-text">
+            <div class="result">
+                <h2>恭喜你，预约成功！</h2>
+                <h3>预约项目为：</h3>
+                <span>预约理发师：</span><span class="result1"></span><br>
+                <span>预约发型：</span><span class="result2"></span><br>
+                <span>预约订金：</span><span class="result3"></span><br>
+                <span>预约到店理发时间：</span><span class="result4"></span>
+            </div>
+            <h2>请填写以下预约信息</h2>
+            <label><span>*</span>理发师</label>
+            <select id="select-barber">
+                <option>1号理发师</option>
+                <option>2号理发师</option>
+                <option>3号理发师</option>
+            </select>
+            <label><span>*</span>发&nbsp;&nbsp;&nbsp;型</label>
+            <select id="select-hair">
+                <option>1号发型</option>
+                <option>2号发型</option>
+                <option>3号发型</option>
+                <option>4号发型</option>
+                <option>5号发型</option>
+                <option>6号发型</option>
+            </select>
+                <label><span>*</span>订&nbsp;&nbsp;&nbsp;金</label>
+                    <select id="select-money">
+                        <option>1元</option>
+                        <option>2元</option>
+                        <option>5元</option>
+                    </select>
+                    <a href="javascript:;" class="order-a">预约理发</a>
+        </div>
+
+    </div>
+    <!--理发师-->
+    <div class="h2" id="h2">金牌理发师</div>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">1号理发师</a></li>
+            <li><a href="#tabs-2">2号理发师</a></li>
+            <li><a href="#tabs-3">3号理发师</a></li>
+        </ul>
+        <div id="tabs-1">
+            <div class="num1">
+                <img src="../img/barber.jpg">
+            </div>
+            <div class="jianjie">
+                <h3><big>姓名：</big>TOM</h3>
+                <p><big>等级：</big>高级</p>
+                <p><big>工号：</big>001</p>
+                <p><big>专业：</big>美发</p>
+                <p><big>电话：</big>1335678945</p>
+                <p><big>工作经验：</big>2011年在**理发店工作3年，个人业绩不错；<br>
+                    2014年转入**理发店,担任高级理发师。</p>
+            </div>
+        </div>
+
+        <div id="tabs-2">
+            <div class="num1">
+                <img src="../img/barber-2.jpg">
+            </div>
+            <div class="jianjie">
+                <h3><big>姓名：</big>老王</h3>
+                <p><big>等级：</big>高级</p>
+                <p><big>工号：</big>002</p>
+                <p><big>专业：</big>美发</p>
+                <p><big>电话：</big>1584656546</p>
+                <p><big>工作经验：</big>2011年在**理发店工作3年，个人业绩不错；<br>
+                    2014年转入**理发店,担任高级理发师。</p>
+            </div>
+        </div>
+
+        <div id="tabs-3">
+            <div class="num1">
+                <img src="../img/barber-3.jpg">
+            </div>
+            <div class="jianjie">
+                <h3><big>姓名：</big>Jelly</h3>
+                <p><big>等级：</big>中级</p>
+                <p><big>工号：</big>003</p>
+                <p><big>专业：</big>染发</p>
+                <p><big>电话：</big>1584656546</p>
+                <p><big>工作经验：</big>2011年在**理发店工作3年，个人业绩不错；<br>
+                    2014年转入**理发店,担任高级理发师。</p>
+            </div>
+        </div>
+    </div>
+<!--发型-->
+<div class="cuthair" id="cuthair">
+    <div class="h2">打造属于你的发型</div>
+    <div class="hair">
+        <div class="hair-1">
+            <img src="../img/hair-1.jpg">
+        </div>
+        <div class="hair-text">
+            <h3>柔顺直发</h3>
+            <p>柔顺自然的直发显得十分难得，自然服帖的齐刘海更能展现出男孩的
+                温柔呆萌的个性，清秀白嫩的脸蛋，无辜的大眼睛，学弟该这样纯良优质。</p>
+        </div>
+    </div>
+
+    <div class="hair">
+        <div class="hair-1">
+            <img src="../img/hair-2.jpg">
+        </div>
+        <div class="hair-text">
+            <h3>露额短发</h3>
+            <p>两侧剃短之后整款头型更显的清爽，中间略长的
+                发丝以及刘海都往一侧或往上梳理，展露额头，潇洒帅气。</p>
+        </div>
+    </div>
+
+
+    <div class="hair">
+        <div class="hair-1">
+            <img src="../img/hair-3.jpg">
+        </div>
+        <div class="hair-text">
+            <h3>韩范板栗头</h3>
+            <p>板栗头是韩国男生中较为流行的发式，蓬蓬的栗色短发
+                ，修剪的层次有型，烫发设计增加纹理感十分修颜，瓜子脸男孩尤其适合。</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="box-2">
+    <div class="hair">
+        <div class="hair-1">
+            <img src="../img/hair-4.jpg">
+        </div>
+        <div class="hair-text">
+            <h3>酷帅飞机头</h3>
+            <p>一款被潮男们追捧的发型，对于有着迷人五官的帅哥，长长的刘海可以肆意
+                的用发蜡托起来，吹出蓬松效果霸气显高，酷酷的飞机头平添了几分自信气质。</p>
+        </div>
+    </div>
+
+    <div class="hair">
+        <div class="hair-1">
+            <img src="../img/hair-5.jpg">
+        </div>
+        <div class="hair-text">
+            <h3>蓬松狼狈头</h3>
+            <p>狼狈头又名大背头，是一款散发着雅痞绅士感的造型，把头发整
+                体往后打理，魅力十足，像这样弄点蓬松感更适合年轻潮人。</p>
+        </div>
+    </div>
+
+    <div class="hair">
+        <div class="hair-1">
+            <img src="../img/hair-6.jpg">
+        </div>
+        <div class="hair-text">
+            <h3>个性铲青发型</h3>
+            <p>所谓铲青发型就是两颊旁边的头发剃平，只留出上侧及前额
+                的刘海，烫染出时尚的造型，整体又充满个性感。</p>
+        </div>
+    </div>
+</div>
+    <!--优惠活动-->
+    <div class="h2" id="youhui">店铺优惠</div>
+    <div class="activity">
+        <div class="ac-1">优惠一</div>
+        <div class="ac-text">烫发+染发+护发 低至98元</div>
+    </div>
+
+    <div class="activity">
+        <div class="ac-1">优惠二</div>
+        <div class="ac-text">烫发、染发、护发4.8折优惠</div>
+    </div>
+
+    <div class="activity">
+        <div class="ac-1">优惠三</div>
+        <div class="ac-text">限量推出100张洗头卡，8.5折优惠</div>
+    </div>
+
+    <div class="activity">
+        <div class="ac-1">优惠四</div>
+        <div class="ac-text">消费满280元送会员卡一张</div>
+    </div>
+    <div class="ping">
+        <h2>店铺评价</h2>
+        <hr>
+        <input type="radio" name="ping" value="好评" checked="checked">好评
+        <input type="radio" name="ping" value="中评">中评
+        <input type="radio" name="ping" value="差评">差评
+        <br>
+        <textarea cols="120" rows="6" id="textarea" placeholder="请填写你对店铺评价（PS：每次只能评价一次）"></textarea><br>
+        <a href="javascript:;" class="ping-a">发表评论</a>
+    </div>
+    <h2 class="history">历史评价</h2>
+    <div class="show-ping">
+        <div class="clear"></div>
+        <div class="time-mess" id="time-mess"></div>
+        <div class="time-mess">
+            <span class="time">2016年12月14日</span>
+            <span class="mess">好评——预约时间准确，节省了很多时间</span>
+        </div>
+        <div class="time-mess">
+            <span class="time">2016年12月14日</span>
+            <span class="mess">好评——理发师水平还可以</span>
+        </div>
+        <div class="time-mess">
+            <span class="time">2016年12月11日</span>
+            <span class="mess">中评——理发师速度有一点点慢，但是理发质量很高</span>
+        </div>
+
+
+    </div>
+<!--底部-->
+<div class="foot">
+    <p>Copyright &copy;2016 胖小子</p>
+    <span> 地址：四川省成都大学</span>&nbsp;&nbsp;&nbsp;<span>邮箱：whg.cdu@foxmail.com</span>
+</div>
+</body>
+</html>

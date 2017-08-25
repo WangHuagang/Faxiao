@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 970px;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: #0091ea;
+}
+
+.head h2{
+    float: left;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    margin-left: 70px;
+}
+
+.head span{
+    display: block;
+    float: right;
+    margin-right: 100px;
+    line-height: 100px;
+    color: white;
+}
+.head span a{
+    color: white;
+    font-weight: 700;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+.check{
+    width: 90%;
+    height: 400px;
+    position: absolute;
+    top:700px;
+    padding-left: 10%;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: rgba(225,225,225,1);
+    border: 1px solid #cccccc;
+    display: none;
+}
+.clear{
+    clear: both;
+}
+.check h2{
+    padding: 20px 0;
+    float: left;
+}
+.check .close img{
+    float: right;
+    margin-top:5px;
+    margin-right: 5px;
+}
+.check-a{
+    display: block;
+    margin-left: 37%;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    background-color: #229fb3;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+}
+.check-a:hover{
+    background-color: #0091ea;
+}
+.container .lab{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #666;
+}
+.container big{
+    color: red;
+}
+.container .input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.uploading{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    color: #222;
+    font-weight: 500;
+    font-size: 18px;
+}
+.uploading-1{
+    width: 100px;
+    height: 100px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+}
+.uploading-2{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.file{
+    display: none;
+}
+.uploading-2 label:hover{
+    cursor: pointer;
+}
+.uploading-3{
+    width: 450px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 50px;
+    float: left;
+}
+.uploading-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.uploading-img img{
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+}
+.foot a{
+    display: block;
+    width: 220px;
+    height: 40px;
+    background-color: #cccccc;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.foot a:hover{
+    background-color: #0091ea;
+}
+select{
+    width: 130px;
+    height: 26px;
+    border-radius: 5px;
+}
+
+#address{
+    width: 300px;
+}
+
+.success{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+.success h2{
+    text-align: center;
+    color: red;
+}
+.success p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.success span{
+    color: red;
+    font-size: 28px;
+}
+.test{
+    color: red;
+}
+#frm input{
+    border: 1px solid #cccccc;
+}
+.gou{
+    width: 16px;
+    height: 16px;
+    float:right;
+    margin-top: 10px;
+    margin-right: 56%;
+    background: url("../img/gou.png") no-repeat;
+    display: none;
+}
+.gou8{
+    margin-right: 48%;
+}

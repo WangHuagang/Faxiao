@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>店铺注册——发晓</title>
+    <script src="../js/jquery.min.js"></script>
+    <script charset="gbk" type="text/javascript"  src="../js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/shop-register-1.css"/>
+    <script charset="gbk" type="text/javascript" src="../js/shop-register-1.js"></script>
+</head>
+<body>
+    <div class="head">
+        <h2>发晓商家中心</h2>
+        <span>注册店铺的过程中，有任何问题请<a href="self.html">联系我们</a></span>
+    </div>
+    <div class="container">
+        <div class="check">
+            <h2>请再次核对你的注册信息</h2>
+            <a href="javascript:;" class="close"><img src="../img/closebtn.png"></a>
+            <div class="clear"></div>
+            <hr>
+            <span>店铺名称：</span><span class="result1"></span><br>
+            <span>登录账号：</span><span class="result2"></span><br>
+            <span>登录密码：</span><span class="result3"></span><br>
+            <span>联系人：</span><span class="result4"></span><br>
+            <span>联系电话：</span><span class="result5"></span><br>
+            <span>联系邮箱：</span><span class="result6"></span><br>
+            <span>店铺地址：</span><span class="result7"></span>
+                            <span class="result8"></span>
+                            <span class="result9"></span>
+                            <span class="result10"></span><br>
+            <a href="customer-succss.html" class="check-a">确定并提交</a>
+        </div>
+        <form id="frm">
+            <label class="lab"><big>*</big> 店铺名称</label>
+            <input type="text" size="16" class="input" required id="name" placeholder="由2-12位汉字、数字、字符构成">
+            <span class="test test1"></span>
+            <span class="gou gou1"></span>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 登录账号</label>
+            <input type="text" size="16" class="input" id="user" placeholder="由汉字、数字、字符构成，至少3位">
+            <span class="test test2"></span>
+            <span class="gou gou2"></span>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 登录密码</label>
+            <input type="password" size="16" class="input" id="pwd" placeholder="6-16位数字，字母，特殊字符组成" >
+            <span class="test test3"></span>
+            <span class="gou gou3"></span>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 确认密码</label>
+            <input type="password" size="16" class="input" id="repwd">
+            <span class="test test4"></span>
+            <span class="gou gou4"></span>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 联 系 人</label>
+            <input type="text" size="8" class="input" id="linkname" placeholder="请输入店铺负责人的姓名">
+            <span class="test test5"></span>
+            <span class="gou gou5"></span>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 手机号码</label>
+            <input type="text" size="16" class="input" id="tel" placeholder="请输入正确的手机号码">
+            <span class="test test6"></span>
+            <span class="gou gou6"></span>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 邮&nbsp;&nbsp;箱</label>
+            <input type="email" size="16" class="input" id="email" placeholder="请输入你的邮箱">
+            <span class="test test7"></span>
+            <span class="gou gou7"></span>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 营业时间</label>
+            <input type="radio" name="time"><span>24小时</span>
+            <input type="radio" name="time"><span>自定义时间</span>
+            <span>开店时间</span><input type="time" value="08:00">
+            <span>关店时间</span><input type="time" value="22:00">
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 城 &nbsp;&nbsp;市</label>
+            <select id="select1">
+                <option>---选择省份---</option>
+                <option>四川省</option>
+                <option>云南省</option>
+                <option>贵州省</option>
+                <option>山东省</option>
+                <option>山西省</option>
+                <option>河北省</option>
+                <option>河南省</option>
+                <option>江苏省</option>
+            </select>
+            <select id="select2">
+                <option>---选择城市---</option>
+                <option>成都市</option>
+                <option>内江市</option>
+                <option>自贡市</option>
+                <option>资阳市</option>
+                <option>南充市</option>
+                <option>达州市</option>
+                <option>绵阳市</option>
+                <option>广元市</option>
+                <option>广安市</option>
+            </select>
+            <select id="select3">
+                <option>---选择区县---</option>
+                <option>龙泉驿区</option>
+                <option>成华区</option>
+                <option>武侯区</option>
+                <option>青羊区</option>
+                <option>锦江区</option>
+                <option>金牛区</option>
+                <option>青白江区</option>
+                <option>新都区</option>
+            </select>
+            <br>
+            <br>
+            <label class="lab"><big>*</big> 详细地址</label>
+            <input type="text" size="16" class="input" id="address" placeholder="详细至门牌号，和营业执照地址一样">
+            <span class="test test8"></span>
+            <span class="gou gou8"></span>
+        </form><br>
+        <label class="lab lab-1"><big>*</big> 门面照片</label>
+        <div class="uploading">
+            <div class="uploading-1">门脸照</div>
+            <div class="uploading-2"><input type="file" id="file" class="file"><label for="file">点击上传</label></div>
+            <div class="uploading-3">一张真实美观的门脸照可以提升店铺形象</div>
+            <div class="uploading-img"><img src="../img/s4.jpg"></div>
+        </div>
+        <div class="uploading">
+            <div class="uploading-1">店内照</div>
+            <div class="uploading-2"><input type="file" id="file1" class="file"><label for="file1">点击上传</label></div>
+            <div class="uploading-3">简洁干净的店内照可以让用户放心</div>
+            <div class="uploading-img"><img src="../img/img1.jpg"></div>
+        </div>
+        <label class="lab lab-1"><big>*</big> 店铺LOGO</label>
+        <div class="uploading">
+            <div class="uploading-1">店铺LOGO</div>
+            <div class="uploading-2"><input type="file" id="file2" class="file"><label for="file2">点击上传</label></div>
+            <div class="uploading-3">上传与店铺气质Logo，提高用户进店概率</div>
+            <div class="uploading-img"><img src="../img/123.jpg"></div>
+        </div>
+        <label class="lab lab-1"><big>*</big> 身份证照片</label>
+        <div class="uploading">
+            <div class="uploading-1">身份证</div>
+            <div class="uploading-2"><input type="file" id="file3" class="file"><label for="file3">点击上传</label></div>
+            <div class="uploading-3">证件照需清晰可辨认，不得使用复印件</div>
+            <div class="uploading-img"><img src="../img/s1.jpg"></div>
+        </div>
+        <label class="lab lab-1"><big>*</big> 营业执照</label>
+        <div class="uploading">
+            <div class="uploading-1">营业执照</div>
+            <div class="uploading-2"><input type="file" id="file4" class="file"><label for="file4">点击上传</label></div>
+            <div class="uploading-3">正面拍摄证件，照片需清晰可辨认，不得使用复印件</div>
+            <div class="uploading-img"><img src="../img/s3.jpg"></div>
+        </div>
+    </div>
+
+<div class="foot">
+    <a href="javascript:;"id="sub-a">提交注册，并接受审核</a>
+</div>
+</body>
+</html>

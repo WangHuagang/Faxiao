@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 970px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head {
+    width: 970px;
+    height: 118px;
+    background: rgba(225,225,225,0.6);
+}
+.logo img{
+    width: 200px;
+    height: 118px;
+    float: left;
+}
+.nav{
+    padding-top: 20px;
+}
+.left .nav li a{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    border: 1px solid #cccccc;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.left .nav li a:hover{
+    box-shadow: 0 0 4px black;
+    font-weight: bold;
+    transform: scale(1.2);
+    color: black;
+    border-radius: 18px 0px 18px 0px;
+}
+
+.login{
+    width: 970px;
+    height: 600px;
+    background: url("../img/loginpic1.jpg") no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.login-btn{
+    position: absolute;
+    left: 35%;
+    top: 45%;
+    width: 3200px;
+}
+
+.login-btn a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    background-color: #007fff;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.login-btn a:hover{
+    background-color: #003eff;
+}
+#register{
+    background-color:rgba(225,225,225,0.6);
+    color: black;
+}
+#register:hover{
+    background-color: #003eff;
+    color: white;
+}
+.login-interface{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    z-index: 1999;
+    border-radius: 5px;
+    box-shadow: 0px 0 10px black;
+    left:30%;
+    top: 30%;
+    background: white;
+    position: relative;
+}
+#all{
+    position: absolute;
+    width: 970px;
+    height: 800px;
+    display: none;
+    background-color: rgba(225,225,225,0.6);
+    z-index: 99;
+}
+.login-interface .title{
+    display: block;
+    font-size: 30px;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    color: #007fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.login-interface label{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+.form-div{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.login-interface .user{
+    width: 240px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,1);
+    color: black;
+    border-radius: 6px;
+    background:  url("../img/user.png") no-repeat 5px center;
+    text-indent:32px;
+    margin-top: 20px;
+}
+.user-show-message,.psd-show-message{
+    font-weight: 400;
+    color: red;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+.login-interface #psd{
+    background: url("../img/password.png") no-repeat 5px center;
+}
+.login-interface .user:focus{
+    border-radius: 0px;
+    background: rgba(0,0,0,0.1) url("../img/user-1.png") no-repeat 5px center;
+}
+.login-interface #psd:focus{
+    border-radius: 0px;
+    background: rgba(0,0,0,0.1) url("../img/password-1.png") no-repeat 5px center;
+}
+.login-interface #rem-psd{
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    height: 25px;
+}
+
+.login-interface .loginbtn{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    background-color: #007fff;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.login-interface .loginbtn:hover{
+   background-color: #0091ea;
+}
+
+.login-interface .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

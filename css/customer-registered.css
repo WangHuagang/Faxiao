@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 970px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: #0091ea;
+}
+
+.head h2{
+    float: left;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    line-height: 100px;
+    margin-left: 70px;
+}
+
+.head span{
+    display: block;
+    float: right;
+    margin-right: 100px;
+    line-height: 100px;
+    color: white;
+}
+.head span a{
+    color: white;
+    font-weight: 700;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+.container .lab{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #666;
+}
+.container big{
+    color: red;
+}
+.container .input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#yanzheng{
+    width: 100px;
+}
+.container{
+    margin-top: 30px;
+}
+#aid{
+    display: block;
+    width: 200px;
+    height: 30px;
+    background-color: #007fff;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: "Microsoft YaHei";
+}
+#aid:hover{
+    box-shadow: 0 0 5px #ccc;
+    border: black;
+}
+.left{
+    width: 70%;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+}
+.left .show{
+    display: none;
+}
+.right{
+    width: 26%;
+    height: 400px;
+    background: url("../img/bg3.png") no-repeat;
+    margin-left: 2%;
+    float: left;
+
+}
+
+.right a{
+    display: block;
+    width: 210px;
+    height: 40px;
+    background-color: #007fff;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 300px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
